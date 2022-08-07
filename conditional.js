@@ -32,22 +32,42 @@ if(chickenPrice > iHave){
 else{
     console.log(getChiken);
 }
-// let graduated = true;
-// let salary = 25000;
-// let car = 2;
-// if(graduated == true || salary >= 30000 || car > 0) {
-//     console.log("Biya Hoibo");
-// }
-// else {
-//     console.log("Muri Kha");
-// }
 let graduated = true;
 let salary = 25000;
-let car = 1;
-if(graduated == true && (salary >= 30000 || car > 0)) {
+let car = 2;
+if(graduated == true || salary >= 30000 || car > 0) {
     console.log("Biya Hoibo");
 }
 else {
     console.log("Muri Kha");
 }
-
+let isGraduated = true;
+let yourSalary = 25000;
+let yourCar = 1;
+if(isGraduated == true && (yourSalary >= 30000 || yourCar > 0)) {
+    console.log("Biya Hoibo");
+}
+else {
+    console.log("Muri Kha");
+}
+let myMoney = 450;
+let biscuitePrice = 45;
+let breadPrice = 35;
+let chipsPrice = 20;
+let teaPrice = 10;
+if (biscuitePrice <= myMoney){
+    console.log("Tumi Bisuite Khaw");
+}
+else if (breadPrice <= myMoney){
+    console.log("Tumi Bread khete paro");
+}
+else if (chipsPrice <= myMoney){
+    console.log("Tumi Chips Khete Paro");
+}
+else if (teaPrice <= myMoney){
+    console.log("Tumi Cha Khaw");
+}
+else {
+    console.log("Dokan thika dure jaia bikhkha kor");
+}
+// Ekta if er vitor ekdhik if likha jay. eke nesting bola hoy.
